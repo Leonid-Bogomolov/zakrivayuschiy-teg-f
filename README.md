@@ -1,1 +1,0 @@
-https://github.com/Leonid-Bogomolov/zakrivayuschiy-teg-f
