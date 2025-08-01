@@ -1,2 +1,1 @@
 https://github.com/Leonid-Bogomolov/zakrivayuschiy-teg-f
-https://www.figma.com/design/V4pstG5T73Fl7WELivfMv5/4-спринт.-Проектная--работа-«Закрывающий-тег».--Copy-?t=9gJCAkYiS4BINgbP-0
