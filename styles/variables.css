@@ -2,8 +2,8 @@
 :root {
   --main-font:  'Inter-Variable', sans-serif;
   --accent-font: 'PressStart2P-Regular', sans-serif;
-  --main-font-weight: 410;
-  --title-font-weight: 715;
+  --main-font-weight: "wght" 410;
+  --title-font-weight: "wght" 715;
   --font-color: #000;
   --button-bg: #fff;
   --button-border-hover-bg: #000;
