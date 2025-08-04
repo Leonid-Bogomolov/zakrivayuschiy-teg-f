@@ -10,7 +10,7 @@
 
 */
 
-@keyframes put-like {
+@keyframes resize {
   0% {
     transform: scale(1);
   }
@@ -22,7 +22,7 @@
   }
 }
 
-@keyframes sincerity {
+@keyframes fadeInSparks {
   0% {
     opacity: 0;
   }

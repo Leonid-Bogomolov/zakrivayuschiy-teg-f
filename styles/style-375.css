@@ -4,60 +4,12 @@
   }
 
   .main__title {
-    block-size: 29px;
-    line-height: 150%;
+    line-height: 120%;
+    padding-block: 4px 4px;
   }
 
-  .introduction_title {
-    font-weight: "wght" 785;
-    line-height: 136%;
-    letter-spacing: 0.155px;
-    block-size: 52px;
-  }
-
-  .main__card-article {
+  .main__card-text {
     gap: 25px;
-  }
-
-  .title_strategies {
-    letter-spacing: 0.25px;
-  }
-
-  .title_chase {
-    letter-spacing: 0.2px;
-    min-block-size: 30.5px;
-    padding-block-end: 2px;
-  }
-
-  .title_near {
-    letter-spacing: 0.22px;
-    height: 29px;
-  }
-
-  .title_first-steps {
-    min-block-size: 30.5px;
-  }
-
-  .title_hands-down {
-    letter-spacing: 0.26px;
-    min-block-size: 28px;
-  }
-
-  .title_now {
-    letter-spacing: 0.45px;
-  }
-
-  .article_near {
-    gap: 24px;
-    padding: 24px 24px 25px 25px;
-  }
-
-  .article_first-steps {
-    gap: 25px;
-  }
-
-  .article_hands-down {
-    padding-block-start: 23px;
   }
 
   .main__text {
@@ -65,26 +17,17 @@
     letter-spacing: 0.49px;
   }
 
-  .text_clean-slate {
-    letter-spacing: 0.4px;
-    line-height: 114%;
+  .floppy-desktop {
+    display: none;
   }
 
-  .button-text_content {
-    gap: 0;
+  .floppy-mobile {
+    display: inline-block;
   }
-
-  #dialog-id[open] {
+  
+  #dialog-id {
+    min-inline-size: 92%;
     padding-block: 30px;
     padding-inline: 40px;
-  }
-
-  .insert {
-    inline-size: auto;
-    min-block-size: 63px;
-  }
-
-  .offer-to-user {
-    flex-wrap: wrap;
   }
 }
