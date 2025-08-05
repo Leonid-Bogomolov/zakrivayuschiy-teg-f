@@ -3,7 +3,7 @@
     margin-block-end: 100px;
   }
 
-  .main__title {
+  .main__card-title {
     line-height: 120%;
     padding-block: 4px 4px;
   }
@@ -12,7 +12,7 @@
     gap: 25px;
   }
 
-  .main__text {
+  .main__card-text-paragraph {
     line-height: 114%;
     letter-spacing: 0.49px;
   }

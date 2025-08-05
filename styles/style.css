@@ -72,10 +72,10 @@
 
 .main__card {
   background-color: #fff;
-  border: 2.5px solid #000;
+  border: 2px solid #000;
 }
 
-.main__title {
+.main__card-title {
   font-size: 18px;
   font-variation-settings: var(--title-font-weight);
   letter-spacing: 0.12px;
@@ -83,14 +83,14 @@
   padding: 5.1px 10px;
 }
 
-.main__wrapper-image {
+.main__card-wrapper-image {
   max-block-size: 700px;
   position: relative;
   border-block-start: 2px solid var(--button-border-hover-bg, #000);
   border-block-end: 2px solid var(--button-border-hover-bg, #000);
 }
 
-.main__image {
+.main__card-image {
   display: block; /*меняем статус блока img для того чтобы исключить увеличение размера оборачивающего блока */
   inline-size: 100%;
   object-fit: cover;
@@ -156,12 +156,12 @@
   padding: 25px 24px 25px 25px;
 }
 
-.main__text {
+.main__card-text-paragraph {
   line-height: 115%;
   letter-spacing: 0.39px;
 }
 
-.main__wrapper-buttons {
+.main__card-wrapper-buttons {
   align-self: flex-end;
   display: flex;
   justify-content: space-between;
@@ -283,7 +283,7 @@
   position: relative;
   min-block-size: 38px;
   background-color: var(--button-bg, #fff);
-  outline: 2px solid var(--button-border-hover-bg, #000);
+  border: 2px solid var(--button-border-hover-bg);
   border-radius: 0;
   transition: box-shadow 0.3s ease;
   cursor: pointer;
@@ -315,7 +315,7 @@
   text-align: center;
 }
 
-.main__save-button {
+.main__button-save {
   min-block-size: 55px;
   inline-size: clamp(306px, calc(306px + 0.0272 * (100vw - 375px)), 335px);
   max-block-size: 84px;
@@ -323,7 +323,7 @@
   line-height: 123%;
 }
 
-.button-text_structure {
+.button__text_structure {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -360,7 +360,7 @@
   display: flex;
 }
 
-.dialog__floppy {
+.dialog__content-floppy {
   min-inline-size: 39px;
   fill: var(--button-color, #fff);
 }
